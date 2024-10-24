@@ -1,0 +1,17 @@
+#!/usr/bin/python3
+
+import sys
+
+n=0
+i=0
+for x in sys.argv[1:]:
+    x=float(x)
+
+if x<0.0:
+    n++
+
+elif x>0.0:
+    i++
+
+print("負の数：'n',非負の数：'i')
+
